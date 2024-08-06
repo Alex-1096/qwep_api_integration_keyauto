@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "development"
+version = "0.1.0"
+description = ""
+authors = ["a.dernovoy <a.dernovoy@keyauto.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = "2.0.30"
+EnvFile = "1.0"
+python-dotenv = "1.0.1"
+datamodel-code-generator = "^0.25.5"
+pyodbc = "5.1.0"
+requests = "2.32.2"
+ndg-httpsclient = "0.5.1"
+pyopenssl = "24.1.0"
+pyasn1 = "0.6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
